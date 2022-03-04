@@ -16,5 +16,5 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-wget https://raw.githubusercontent.com/Bartixxx32/r6220-build/main/patchda.diff -O patch.patch
+wget https://raw.githubusercontent.com/Bartixxx32/r6220-build/main/patchres.diff -O patch.patch
 patch -p1 < patch.patch

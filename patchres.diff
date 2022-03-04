@@ -1,0 +1,16 @@
+diff --git a/target/linux/ramips/dts/mt7621_netgear_r6220.dts b/target/linux/ramips/dts/mt7621_netgear_r6220.dts
+index cc29d4ea8e..fdbcfcf239 100644
+--- a/target/linux/ramips/dts/mt7621_netgear_r6220.dts
++++ b/target/linux/ramips/dts/mt7621_netgear_r6220.dts
+@@ -43,9 +43,9 @@
+ 			read-only;
+ 		};
+ 
+-		partition@4200000 {
++		partition@4220000 {
+ 			label = "reserved";
+-			reg = <0x4200000 0x3c00000>;
++			reg = <0x4220000 0x3c00000>;
+ 			read-only;
+ 		};
+ 	};
