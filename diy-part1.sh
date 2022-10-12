@@ -18,4 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 pwd
 ls
-wget https://raw.githubusercontent.com/Bartixxx32/r6220-build/main/patchres.diff -O target/linux/ramips/patches-5.10/901-staging-mt7621-pci-delay-for-properly-detect.patch
+wget https://raw.githubusercontent.com/Bartixxx32/r6220-build/main/patchres.diff -O ./target/linux/ramips/patches-5.10/901-staging-mt7621-pci-delay-for-properly-detect.patch
