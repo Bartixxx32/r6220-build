@@ -60,7 +60,16 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt 
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-
+    
+    
+    - name: Cache Desktop
+      id: cache
+      uses: actions/cache@v3
+      with:
+        path: /home/runner/work/r6220-build/r6220-build/openwrt/.ccache/
+        key: ${{ runner.os }}-linux-${{ github.run_number }}
+        restore-keys: ${{ runner.os }}-linux
+    
     - name: Load custom feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
