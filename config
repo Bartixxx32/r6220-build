@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Temp.sh | .config</title>
+<meta charset="utf-8">
+<style type="text/css">
+body{
+	font-size:18px;
+	font-family: "Lucidia Console", monospace;
+	color:white;
+	background-color: black;
+	text-align: center;
+}
+.main{
+	margin:40px auto;
+	max-width:650px;
+	line-height:1.4;
+	
+}
+.footer{
+	bottom:0;
+	position: fixed;
+	width: 100%;
+	background-color: black;
+}
+a{color:grey}
+h1,h2,h3{line-height:1.2}
+pre{font-size: 12;line-height: 11px}
+button{
+	color:white;
+	background-color: black;
+	line-height:1.4;
+	font-size:18px;
+	font-family: "Lucidia Console", monospace;
+}
+.preview{
+	margin-bottom:80px;
+}
+td{text-align:right;}
+th{text-align:left;}
+table{margin-left:auto;margin-right:auto;border-spacing: 40px 0px;}
+</style>
+</head>
+<body>
+<div class="main">
+<a href="/" style="text-decoration: none;color:white;">
+<pre>
+╔═════════╗ ╔═════════╗ ╔═════════╗ ╔═════════╗     ╔═════════╗ ╔══╗   ╔══╗ 
+╚══╗   ╔══╝ ║  ╔══════╝ ║         ║ ║   ╔══╗  ║     ║  ╔══════╝ ║  ║   ║  ║ 
+   ║   ║    ║  ╚════╗   ║ ╔═╗ ╔═╗ ║ ║   ╚══╝  ║     ║  ╚══════╗ ║  ╚═══╝  ║ 
+   ║   ║    ║  ╔════╝   ║ ║ ║ ║ ║ ║ ║  ╔══════╝     ╚══════╗  ║ ║  ╔═══╗  ║ 
+   ║   ║    ║  ╚══════╗ ║ ║ ║ ║ ║ ║ ║  ║       ╔══╗ ╔══════╝  ║ ║  ║   ║  ║ 
+   ╚═══╝    ╚═════════╝ ╚═╝ ╚═╝ ╚═╝ ╚══╝       ╚══╝ ╚═════════╝ ╚══╝   ╚══╝ 
+</pre></a>
+<p><i>~everything is temporary~</i></p>
+<table>
+<tr><th>Filename</th><td>.config</td></tr>
+<tr><th>Expire Time</th><td>2022-10-16 16:43:24 &#43;0100 BST</td></tr>
+<tr><th>File Size</th><td>265.0 KiB</td></tr>
+<tr><th>Mime Type</th><td>text/plain; charset=utf-8</td></tr>
+</table>
+<br>
+<form method="POST"><button type="submit">Click here to download<br>.config</button></form>
+</div>
+<div class="preview">
+
+
+<form method="POST"><input type="hidden" id="inline" name="inline" value="true" /><button type="submit">View text file in browser</button></form>
+
+</div>
+<div class="footer">
+<p><b>Contact:</b> temp@national.shitposting.agency	| <a href="https://twitter.com/premined">@premined</a></p>
+</div>
+</body>
+</html>
