@@ -62,7 +62,7 @@ jobs:
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
     
     
-    - name: Cache Desktop
+    - name: Cache
       id: cache
       uses: actions/cache@v3
       with:
