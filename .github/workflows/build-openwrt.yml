@@ -66,7 +66,7 @@ jobs:
       id: cache
       uses: actions/cache@v3
       with:
-        path: /home/runner/work/r6220-build/r6220-build/openwrt/.ccache/
+        path: /home/runner/work/r6220-build/r6220-build/openwrt/.ccache
         key: ${{ runner.os }}-linux-${{ github.run_number }}
         restore-keys: ${{ runner.os }}-linux
     
